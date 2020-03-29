@@ -10,8 +10,12 @@ fn main() {
     // Задача 1
     // lesson1::run_variant_1();
     // lesson1::run_variant_2();
+
     // Задача 2
     // lesson2::run();
+
     // Задача 3
-    lesson3::run_variant_1();
+    // lesson3::run_variant_2();
+    // lesson3::run_variant_1();
+
 }
