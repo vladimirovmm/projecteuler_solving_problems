@@ -5,7 +5,9 @@
 // Задача 3
 // mod lesson3;
 // Задача 4
-mod lesson4;
+// mod lesson4;
+// Задача 5
+mod lesson5;
 
 fn main() {
     // Задача 1
@@ -20,5 +22,8 @@ fn main() {
     // lesson3::run_variant_1();
 
     // Задача 4
-    lesson4::run();
+    // lesson4::run();
+
+    // Задача 5
+    lesson5::run();
 }
