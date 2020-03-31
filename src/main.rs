@@ -17,7 +17,9 @@
 // Задача 9
 // mod lesson9;
 // Задача 10
-mod lesson10;
+// mod lesson10;
+// Задача 11
+mod lesson11;
 
 fn main() {
     // Задача 1
@@ -49,6 +51,12 @@ fn main() {
     // lesson8::run_2();
 
     // Задача 10
-    lesson10::run();
+    // lesson10::run();
+
+    // Задача 11
+    lesson11::run();
+
+
 }
+
 

@@ -20,7 +20,7 @@ pub fn run(){
             if a.pow(2)+b.pow(2)==c.pow(2){
                 println!("resutl: {}", a*b*c );
                 break 'first_for;
-            }
+            }w
         }
     }
 }
