@@ -56,9 +56,9 @@ let list_numbers:Vec<usize> =
         .map(|x| x as usize)
         .collect();
 let how_much:usize = 13;
-let result = (0..=list_numbers.len()- how_much).map(|index|{
-        (index..index + how_much).fold(1, |prod, a| prod * list_numbers[a])
-    }).max().unwrap();
+let result:usize = list_numbers.windows(how_much)
+    .map(|x| x.iter().product() )
+    .max().unwrap();
 println!("result: {}", result);
 ```
  ​

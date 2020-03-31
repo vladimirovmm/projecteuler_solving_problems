@@ -41,7 +41,7 @@ fn main() {
     // lesson7::run();
 
     // Задача 8
-    lesson8::run();
+    lesson8::run_2();
 
 }
 
